@@ -12,7 +12,8 @@
     "build": "lerna run --parallel build",
     "clean": "lerna clean --yes;rm -rf node_modules",
     "lint": "vue-cli-service lint",
-    "cm": "git-cz"
+    "cm": "git-cz",
+    "release": "lerna publish --conventional-commits"
   },
   "gitHooks": {
     "pre-commit": "yarn build"
