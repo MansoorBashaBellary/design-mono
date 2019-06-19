@@ -1,0 +1,43 @@
+{
+  "name": "@mansoorbashabellary/dm-components",
+  "version": "1.1.1",
+  "license": "UNLICENSED",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "NODE_ENV=production VUE_APP_BUILD_TARGET=js-components vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:MansoorBashaBellary/design-mono.git",
+    "directory": "src/app"
+  },
+  "author": "Mansoor Basha Bellary",
+  "homepage": "https://github.com/MansoorBashaBellary/design-mono#readme",
+  "bugs": {
+    "url": "https://github.com/MansoorBashaBellary/design-mono/issues"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@mansoorbashabellary/dm-accordion": "^1.2.2",
+    "@mansoorbashabellary/dm-tabs": "^1.1.1",
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "lerna": "^3.14.1",
+    "lint-staged": "^8.0.4",
+    "lodash": "^4.17.5",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
