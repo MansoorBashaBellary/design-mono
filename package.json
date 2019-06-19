@@ -14,7 +14,8 @@
     "lint": "vue-cli-service lint",
     "cm": "git-cz",
     "changelog": "lerna-changelog",
-    "release": "lerna publish --pre-release"
+    "release": "lerna publish",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
   "gitHooks": {
     "pre-commit": "yarn build"
@@ -51,9 +52,7 @@
     }
   },
   "devDependencies": {
-    "commitizen": "3.1.1",
-    "cz-conventional-changelog": "2.1.0",
-    "cz-lerna-changelog": "2.0.2",
+    "conventional-changelog-cli": "2.0.21",
     "lerna-semantic-release": "9.1.0",
     "@vue/cli-plugin-babel": "^3.8.0",
     "@vue/cli-plugin-eslint": "^3.8.0",
