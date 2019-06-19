@@ -14,8 +14,7 @@
     "lint": "vue-cli-service lint",
     "cm": "git-cz",
     "changelog": "lerna-changelog",
-    "release": "yarn changelog && lerna publish",
-    "semantic-release": "lerna-semantic-release pre && lerna-semantic-release post && lerna-semantic-release perform"
+    "release": "lerna publish --pre-release"
   },
   "gitHooks": {
     "pre-commit": "yarn build"
