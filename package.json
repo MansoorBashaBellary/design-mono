@@ -15,12 +15,7 @@
     "clean": "lerna clean --yes;rm -rf node_modules",
     "lint": "vue-cli-service lint",
     "prepublishOnly": "node ./remove-private-field.js",
-    "postpublish": "node ./add-private-field.js",
-    "changelog": "yarn cz-lerna-changelog -p angular -i CHANGELOG.md -s",
-    "commit": "git-cz",
-    "preversion": "yarn",
-    "version": "yarn changelog && git add CHANGELOG.md",
-    "version:recommend": "conventional-recommended-bump -p angular"
+    "postpublish": "node ./add-private-field.js"
   },
   "gitHooks": {
     "pre-commit": "yarn build"
@@ -39,11 +34,6 @@
       "@commitlint/config-angular"
     ]
   },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-lerna-changelog"
-    }
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:MansoorBashaBellary/design-mono.git"
@@ -56,14 +46,15 @@
     "core-js": "^2.6.5",
     "vue": "^2.6.10"
   },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
+  },
   "devDependencies": {
-    "@commitlint/cli": "^7.2.1",
-    "@commitlint/config-angular": "^7.1.2",
-    "@commitlint/config-conventional": "^7.1.2",
-    "commitizen": "^3.0.4",
-    "cz-lerna-changelog": "2.0.2",
-    "conventional-github-releaser": "^3.1.2",
-    "conventional-recommended-bump": "^4.0.4",
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.1.0",
+    "cz-lerna-changelog": "^1.2.1",
     "@vue/cli-plugin-babel": "^3.8.0",
     "@vue/cli-plugin-eslint": "^3.8.0",
     "@vue/cli-service": "^3.8.0",
