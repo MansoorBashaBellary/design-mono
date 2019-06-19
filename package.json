@@ -13,6 +13,7 @@
     "clean": "lerna clean --yes;rm -rf node_modules",
     "lint": "vue-cli-service lint",
     "cm": "git-cz",
+    "changelog": "lerna-changelog",
     "release": "lerna publish"
   },
   "gitHooks": {
@@ -46,13 +47,13 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/@instructure/cz-lerna-changelog"
+      "path": "./node_modules/cz-lerna-changelog"
     }
   },
   "devDependencies": {
     "commitizen": "3.1.1",
     "cz-conventional-changelog": "2.1.0",
-    "@instructure/cz-lerna-changelog": "6.4.0",
+    "cz-lerna-changelog": "2.0.2",
     "lerna-semantic-release": "9.1.0",
     "@vue/cli-plugin-babel": "^3.8.0",
     "@vue/cli-plugin-eslint": "^3.8.0",
