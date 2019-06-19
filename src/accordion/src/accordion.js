@@ -17,6 +17,6 @@ const SPACE_KEY = 32;
 
 export default class Accordion {
   constructor(container, options) {
-    console.log('Accordion');
+    console.log('Accordion test1');
   }
 }
