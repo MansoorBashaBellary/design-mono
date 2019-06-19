@@ -16,7 +16,7 @@
     "lint": "vue-cli-service lint",
     "prepublishOnly": "node ./remove-private-field.js",
     "postpublish": "node ./add-private-field.js",
-    "changelog": "yarn conventional-changelog -p angular -i CHANGELOG.md -s",
+    "changelog": "yarn cz-lerna-changelog -p angular -i CHANGELOG.md -s",
     "commit": "git-cz",
     "preversion": "yarn",
     "version": "yarn changelog && git add CHANGELOG.md",
