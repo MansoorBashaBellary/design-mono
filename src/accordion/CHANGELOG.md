@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/MansoorBashaBellary/design-mono/compare/@mansoorbashabellary/dm-accordion@1.2.3...@mansoorbashabellary/dm-accordion@1.3.0) (2019-06-19)
+
+
+### Features
+
+* **accordion:** update accordion ([4d0c1ca](https://github.com/MansoorBashaBellary/design-mono/commit/4d0c1ca))
+
+
+
+
+
 # [1.2.0](https://github.com/MansoorBashaBellary/design-mono/compare/@mansoorbashabellary/dm-accordion@1.1.0...@mansoorbashabellary/dm-accordion@1.2.0) (2019-06-19)
 
 
