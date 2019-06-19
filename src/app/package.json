@@ -1,6 +1,6 @@
 {
   "name": "@mansoorbashabellary/dm-components",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "license": "UNLICENSED",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -26,7 +26,7 @@
     "vue": "^2.6.10"
   },
   "devDependencies": {
-    "@mansoorbashabellary/dm-accordion": "^1.3.2",
+    "@mansoorbashabellary/dm-accordion": "^1.3.3",
     "@mansoorbashabellary/dm-tabs": "^1.1.1",
     "@vue/cli-plugin-babel": "^3.8.0",
     "@vue/cli-plugin-eslint": "^3.8.0",
