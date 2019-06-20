@@ -5,8 +5,7 @@
   "useWorkspaces": true,
   "command": {
     "publish": {
-      "allowBranch": "master",
-      "cdVersion": "prerelease",
+      "cdVersion": "patch",
       "conventionalCommits": true,
       "message": "chore(release): publish %s"
     }
