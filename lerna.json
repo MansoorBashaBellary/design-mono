@@ -5,7 +5,7 @@
   "useWorkspaces": true,
   "command": {
     "publish": {
-      "cdVersion": "patch",
+      "bump": "patch",
       "conventionalCommits": true,
       "message": "chore(release): publish %s"
     }
