@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "NODE_ENV=production VUE_APP_BUILD_TARGET=js-components vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "prepublishOnly": "cp -R ./../../../src ./dist/"
+    "prepublishOnly": "cp -R ./../../ ./dist/"
   },
   "files": [
     "dist/main.js",
@@ -40,5 +40,6 @@
     "lint-staged": "^8.0.4",
     "lodash": "^4.17.5",
     "vue-template-compiler": "^2.6.10"
-  }
+  },
+  "gitHead": "b3bd6046b7835590c6e1ad2535787a1833301b5a"
 }
