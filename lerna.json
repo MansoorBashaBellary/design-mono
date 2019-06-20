@@ -2,13 +2,5 @@
   "npmClient": "yarn",
   "lerna": "3.14.1",
   "version": "independent",
-  "useWorkspaces": true,
-  "changelog": {
-    "labels": {
-      "tag: new feature": ":rocket: New Feature",
-      "tag: breaking change": ":boom: Breaking Change",
-      "tag: bug fix": ":bug: Bug Fix"
-    },
-    "cacheDir": ".changelog"
-  }
+  "useWorkspaces": true
 }
