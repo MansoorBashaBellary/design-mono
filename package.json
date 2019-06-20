@@ -14,8 +14,7 @@
     "lint": "vue-cli-service lint",
     "cm": "git-cz",
     "changelog": "lerna-changelog",
-    "release": "lerna publish",
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
+    "release": "lerna publish"
   },
   "gitHooks": {
     "pre-commit": "yarn build"
