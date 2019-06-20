@@ -7,6 +7,10 @@
     "build": "NODE_ENV=production VUE_APP_BUILD_TARGET=js-components vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "files": [
+    "dist",
+    "./../../"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:MansoorBashaBellary/design-mono.git",
