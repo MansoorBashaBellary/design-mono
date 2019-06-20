@@ -7,10 +7,6 @@
     "build": "NODE_ENV=production VUE_APP_BUILD_TARGET=js-components vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org",
-    "access": "public"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:MansoorBashaBellary/design-mono.git",

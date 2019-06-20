@@ -3,10 +3,6 @@
   "workspaces": [
     "src/*"
   ],
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org",
-    "access": "public"
-  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "lerna run --parallel build",
