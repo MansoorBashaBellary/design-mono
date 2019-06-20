@@ -13,7 +13,7 @@
     "clean": "lerna clean --yes;rm -rf node_modules",
     "lint": "vue-cli-service lint",
     "cm": "git-cz",
-    "release": "lerna-changelog"
+    "release": "lerna publish"
   },
   "gitHooks": {
     "pre-commit": "yarn build"
