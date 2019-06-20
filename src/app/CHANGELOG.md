@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.33](https://github.com/MansoorBashaBellary/design-mono/compare/@mansoorbashabellary/dm-components@1.1.32...@mansoorbashabellary/dm-components@1.1.33) (2019-06-20)
+
+
+### Features
+
+* **accordion:** changing dist ([1a7d094](https://github.com/MansoorBashaBellary/design-mono/commit/1a7d094))
+
+
+
+
+
 ## [1.1.32](https://github.com/MansoorBashaBellary/design-mono/compare/@mansoorbashabellary/dm-components@1.1.31...@mansoorbashabellary/dm-components@1.1.32) (2019-06-20)
 
 
