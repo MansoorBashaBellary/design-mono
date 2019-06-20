@@ -51,8 +51,7 @@
     }
   },
   "devDependencies": {
-    "conventional-changelog-cli": "2.0.21",
-    "cz-lerna-changelog": "2.0.2",
+    "lerna-changelog": "0.8.2",
     "lerna-semantic-release": "9.1.0",
     "@vue/cli-plugin-babel": "^3.8.0",
     "@vue/cli-plugin-eslint": "^3.8.0",
