@@ -3,13 +3,12 @@
   "lerna": "3.14.1",
   "version": "independent",
   "useWorkspaces": true,
-  "changelog": {
-    "cacheDir": "node_modules/.cache/lerna-changelog",
-    "labels": {
-      "bug": "Bug Fix",
-      "feature": "New Feature",
-      "breaking change": "Breaking Change",
-      "documentation": "Documentation"
+  "command": {
+    "publish": {
+      "cdVersion": "prerelease",
+      "conventionalCommits": true,
+      "gitRemote": "upstream",
+      "message": "chore(release): publish %s"
     }
   }
 }
