@@ -5,11 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "NODE_ENV=production VUE_APP_BUILD_TARGET=js-components vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "publish": "npm publish dist"
   },
-  "files": [
-    "dist/*"
-  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:MansoorBashaBellary/design-mono.git",
