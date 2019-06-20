@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.20](https://github.com/MansoorBashaBellary/design-mono/compare/@mansoorbashabellary/dm-accordion@1.3.19...@mansoorbashabellary/dm-accordion@1.3.20) (2019-06-20)
+
+
+### Features
+
+* **accordion:** changing dist ([80a51bf](https://github.com/MansoorBashaBellary/design-mono/commit/80a51bf))
+
+
+
+
+
 ## [1.3.19](https://github.com/MansoorBashaBellary/design-mono/compare/@mansoorbashabellary/dm-accordion@1.3.18...@mansoorbashabellary/dm-accordion@1.3.19) (2019-06-20)
 
 
