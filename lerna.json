@@ -5,6 +5,7 @@
   "useWorkspaces": true,
   "command": {
     "publish": {
+      "allowBranch": "master",
       "cdVersion": "prerelease",
       "conventionalCommits": true,
       "gitRemote": "upstream",
