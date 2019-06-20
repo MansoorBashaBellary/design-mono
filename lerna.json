@@ -8,7 +8,6 @@
       "allowBranch": "master",
       "cdVersion": "prerelease",
       "conventionalCommits": true,
-      "gitRemote": "upstream",
       "message": "chore(release): publish %s"
     }
   }
