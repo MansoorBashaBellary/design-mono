@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.22](https://github.com/MansoorBashaBellary/design-mono/compare/@mansoorbashabellary/dm-components@1.1.21...@mansoorbashabellary/dm-components@1.1.22) (2019-06-20)
+
+
+### Features
+
+* **accordion:** changelog check ([6886b26](https://github.com/MansoorBashaBellary/design-mono/commit/6886b26))
+
+
+
+
+
 ## [1.1.21](https://github.com/MansoorBashaBellary/design-mono/compare/@mansoorbashabellary/dm-components@1.1.20...@mansoorbashabellary/dm-components@1.1.21) (2019-06-20)
 
 **Note:** Version bump only for package @mansoorbashabellary/dm-components
